@@ -80,7 +80,7 @@ function addProduct() {
 function createCardElement(productDetails) {
     return '<div class="col-4 mb-3" id="card-' + productDetails.productId + '">\n' +
         '      <div class="card">\n' +
-        '           <img src="../image-placeholder.jpg" class="card-img-top" alt="">\n' +
+        '           <img src="image-placeholder.jpg" class="card-img-top" alt="">\n' +
         '                 <div class="card-body p-3">\n' +
         '                       <h5 class="card-title text-primary mb-2">' + productDetails.productName + '</h5>\n' +
         '                        <h6 class="mb-2">$ ' + productDetails.price + '</h6>\n' +
